@@ -1,0 +1,169 @@
+
+.container{
+   width:100vw;
+   height:100vh;
+   background-color:black;
+   background-image:url("https://i.ibb.co/9ccbJ1s/biker-dark-motorcycle-1920x1080-1480.jpg");
+   background-repeat:no-repeat;
+   background-position:center;
+   background-size:cover;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+
+
+.wrapperr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    position: relative;
+   
+    width: 400px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-top: 120px;
+}
+
+.wrapperr .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+.wrapperr .icon-exit{
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #010101;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+
+.form-box h2{
+    font-size: 2em;
+    color: #fefefe;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #202123;
+    margin: 30px 0;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateX(-50%);
+    font-size: 1em;
+    color: #d0d0d0;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top:-5px;
+ }
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    border: none;
+    outline: none;  
+    color: #d0d0d0;
+    font-weight: 600;
+    padding: 0 100px 0 5px;
+}
+                   
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #d0d0d0;
+    line-height: 57px;
+
+ }
+
+ .remember-forgot{
+    font-size: .9em;
+    color: #b2b2b2;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .remember-forgot label input {
+    accent-color: #cfcbcb;
+    margin-right: 3px;
+ }
+
+ .remember-forgot a {
+    color: #c9c9c9;
+    text-decoration: none;
+ }
+
+ .remember-forgot a:hover{
+    text-decoration: underline;
+ }
+
+
+ .btn{
+    width: 100%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+
+ }
+
+ .login-register{
+    font-size: .9em;
+    color: #d0d0d0;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 20px;
+ }
+
+ .login-register p a {
+    color: #d0d0d8;
+    text-decoration: none;
+    font-weight: 600;
+ }
+
+ .login-register p a:hover{
+    text-decoration: underline;
+ }
+        
+
+
+
+
+
+
+

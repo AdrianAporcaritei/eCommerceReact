@@ -1,0 +1,55 @@
+.contact{
+    background: linear-gradient(-45deg, #8b96a8, #424343, #b8c6db, #f5f7fa);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+        @keyframes gradient {
+            0% {
+            background-position: 0% 50%;
+            }
+            50% {
+                 background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+    
+        }
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+    .wrapper{
+        width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+
+    }
+    input{
+        padding: 10px;
+        border: none;
+        border-radius: 5px 0 0 5px;
+        height: 20px;
+        width: 250px;
+        
+    }
+
+    button{
+        padding: 13px;
+        height: 40px;
+        color: white;
+        background: #333;
+        border-radius:  0 5px 5px 0;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .icons{
+        display: flex;
+        gap: 15px;
+        cursor: pointer;
+
+    }
+}
